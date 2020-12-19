@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "t-shirt",
+      "price": 10.99,
+      "img": "https://imgur.com/F9JQHsm.png"
+    },
+    {
+      "id": 2,
+      "name": "pants",
+      "price": 15.00,
+      "img": "https://imgur.com/lBvF2so.png"
+    },
+    {
+      "id": 3,
+      "name": "hoodie",
+      "price": 12.05,
+      "img": "https://imgur.com/Qs0WNQy.png"
+    },
+    {
+      "id": 4,
+      "name": "another hoodie",
+      "price": 25.95,
+      "img": "https://imgur.com/C1kHo6R.png"
+    },
+    {
+      "id": 5,
+      "name": "cool hat",
+      "price": 8.90,
+      "img": "https://imgur.com/4YXnKh8.png"
+    }
+  ]
+}
