@@ -3,6 +3,9 @@ import { selector } from '@klaxon/atom';
 import { cart, setCart, products, activeProduct, setActiveProduct, filter, setFilter, shipping, shippingOptions } from '../atoms/index.js';
 import { Router } from '@vaadin/router';
 
+import { registerDevtools } from '@klaxon/atom';
+registerDevtools();
+
 const openProduct = id => {
   setActiveProduct(id);
   Router.go(`/product/${id}`);

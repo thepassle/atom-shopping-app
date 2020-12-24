@@ -7,7 +7,6 @@
     "start:build": "npm run build && web-dev-server --root-dir dist --app-index index.html --open"
   },
   "devDependencies": {
-    "@klaxon/atom": "0.0.4",
     "@open-wc/building-rollup": "^1.9.4",
     "@open-wc/testing": "^2.0.0",
     "@vaadin/router": "^1.7.2",
@@ -23,7 +22,8 @@
   "author": "shopping-app",
   "license": "MIT",
   "dependencies": {
-    "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
+    "@klaxon/atom": "0.0.6",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
   }
 }
